@@ -4,23 +4,23 @@ let speed=95;
 
 typeWriter()
 
-function typeWriter() {
-    if(i < txt.length){
-      document.getElementById("user-detail-name").style.color="white";
-      document.getElementById("demo1").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-    else {
-      // reset the index when it reaches the end of the text
-      i = 0;
-      // clear the text
-      document.getElementById("demo1").innerHTML = "";
-      // make the recursive call
-      document.getElementById("user-detail-name").style.color="#71e281";
-      setTimeout(typeWriter, speed);
-    }
-  }
+// function typeWriter() {
+//     if(i < txt.length){
+//       document.getElementById("user-detail-name").style.color="white";
+//       document.getElementById("demo1").innerHTML += txt.charAt(i);
+//       i++;
+//       setTimeout(typeWriter, speed);
+//     }
+//     else {
+//       // reset the index when it reaches the end of the text
+//       i = 0;
+//       // clear the text
+//       document.getElementById("demo1").innerHTML = "";
+//       // make the recursive call
+//       document.getElementById("user-detail-name").style.color="#71e281";
+//       setTimeout(typeWriter, speed);
+//     }
+//   }
 
 
   var myNav = document.getElementById('nav-menu');
