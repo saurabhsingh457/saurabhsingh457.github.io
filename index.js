@@ -2,7 +2,7 @@ let i=0;
 let txt="NodeJS Backend Developer.";
 let speed=95;
 
-typeWriter()
+// typeWriter()
 
 // function typeWriter() {
 //     if(i < txt.length){
