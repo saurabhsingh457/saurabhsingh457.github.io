@@ -63,6 +63,7 @@ window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/v
   }
 
   let mode=document.getElementById("mode")
+  
 
   mode.addEventListener("click",()=>{
     if(mode.innerText=="Dark"){
@@ -77,7 +78,8 @@ window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/v
   
   })
   // mode.addEventListener("click",()=>{
-  //    if(mode.innerText="Light"){
+  //    if(mode.innerText="Light"){ 
+
   //     document.querySelector("body").style.backgroundColor="red"
   //     mode.innerText="Dark"
   //   }
