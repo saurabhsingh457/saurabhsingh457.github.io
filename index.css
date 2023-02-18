@@ -9,7 +9,10 @@ body{
   #width {
     margin: 7%;
   }
-  
+  /* .skills-card{
+    width: 180px;
+    height: 90px;
+  } */
   #nav-menu{
     display: flex;
     justify-content: space-between;
@@ -439,4 +442,10 @@ body{
     #width{
       margin: 5%;
     }
+  }
+
+  #mode{
+    top: 100px;
+    right: 10px;
+    position: fixed;
   }

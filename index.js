@@ -61,3 +61,24 @@ window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/v
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.display= "block";
   }
+
+  let mode=document.getElementById("mode")
+
+  mode.addEventListener("click",()=>{
+    if(mode.innerText=="Dark"){
+      mode.innerHTML="Light"
+      document.querySelector("body").style.backgroundColor="black"
+     
+    }
+    else if(mode.innerHTML=="Light"){
+          document.querySelector("body").style.backgroundColor="#525d4b"
+          mode.innerHTML="Dark"
+        }
+  
+  })
+  // mode.addEventListener("click",()=>{
+  //    if(mode.innerText="Light"){
+  //     document.querySelector("body").style.backgroundColor="red"
+  //     mode.innerText="Dark"
+  //   }
+  // })
