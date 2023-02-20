@@ -181,6 +181,8 @@ body{
   
   #projects{
     margin: 250px 4%;
+    padding-top: 70px;
+   
   }
   
   #projects>div{
@@ -273,6 +275,7 @@ body{
   margin-top: 13%;
   text-align: center;
   font-size:x-large;
+  
   }
   
   
@@ -448,4 +451,8 @@ body{
     top: 100px;
     right: 10px;
     position: fixed;
+
+  }
+  #mode:hover{
+    cursor: pointer;
   }
