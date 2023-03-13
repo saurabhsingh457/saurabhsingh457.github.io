@@ -45,11 +45,15 @@ let speed=95;
   });
 
   document.getElementById("resume-button-1").onclick=()=>{
-window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link");
+    window.location.href="https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link";
+
+// window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link");
   }
 
   document.getElementById("resume-button-2").onclick=()=>{
-    window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link");
+    window.location.href="https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link";
+
+    // window.open("https://drive.google.com/file/d/1uhsT8CfOW86c4HYxPyMCbKY2SovB1Ajy/view?usp=share_link");
   }
 
   function openNav() {
