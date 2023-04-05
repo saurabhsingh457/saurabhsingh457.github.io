@@ -27,7 +27,14 @@ body{
   }
   #resume-button-1 {
     border-radius: 7px;
+    padding: 10px;
+    background-color:#010234 ;
+    
     border: 2px solid rgb(113, 113, 211);
+  }
+  #resume-button-1 a{
+    text-decoration: none;
+    color: whitesmoke;
   }
   .nav-colored {
     background-color: rgb(80, 110, 110);
